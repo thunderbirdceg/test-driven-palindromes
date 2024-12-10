@@ -3,7 +3,9 @@
   "version": "1.0.0",
   "main": "index.js",
   "scripts": {
-    "test": "jest"
+    "test": "jest",
+    "lint": "eslint . && prettier --list-different .",
+    "format": "eslint --fix . && prettier --loglevel warn --write ."
   },
   "keywords": [],
   "author": "",
