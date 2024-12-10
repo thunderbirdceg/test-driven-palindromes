@@ -1,3 +1,3 @@
 module.exports = (word) => {
-    return [word]
+    return [word];
 }
